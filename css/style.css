@@ -1,0 +1,15 @@
+@media (min-width:200px){
+    @import url("/css/index/mobile.css");
+    @import url("/css/services/mobile.css")
+}
+
+@media (mind-width:600px){
+    @import url("/css/services/tablet.css");
+    @import url("/css/index/tablet.css");
+}
+
+@media (min-width:1000px){
+    @import url("/css/index/desktop.css");
+    @import url("/css/services/desktop.css")
+}
+

@@ -1,0 +1,9 @@
+@import url("/css/index/mobile.css");
+@import url("/css/index/desktop.css");
+@import url("/css/index/tablet.css");
+
+*{
+    margin: 0;
+    padding: 0;
+}
+

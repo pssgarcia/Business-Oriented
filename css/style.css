@@ -1,12 +1,8 @@
-*{
+@import url("/css/services/mobile.css");
+@import url("/css/services/tablet.css");
+@import url("/css/services/desktop.css");
+
+* {
     margin: 0;
     padding: 0;
 }
-
-@import url("/css/index/mobile.css"); @media (min-width: 200px){}
-@import url("/css/index/tablet.css"); @media (min-width: 600px){}
-@import url("/css/index/desktop.css"); @media (min-width: 1000px){}
-
-@import url("/css/service/mobile.css"); @media (min-width: 200px){}
-@import url("/css/service/tablet.css"); @media (min-width: 600px){}
-@import url("/css/service/desktop.css"); @media (min-width: 1000px){}

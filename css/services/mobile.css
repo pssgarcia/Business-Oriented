@@ -1,7 +1,3 @@
-img {
-  width: 30%;
-}
-
 /* MOBILE */
 @media (min-width: 200px) {
   main {
@@ -11,10 +7,44 @@ img {
   .contact,
   .about,
   .testimonials,
-  .pics,
+  .icons,
+  .icons > article, 
   .services {
     display: flex;
     flex-direction: column;
+  }
+
+  /* TESTIMONIALS */
+  .testimonials {
+    
+  }
+
+  /* ICONS */
+  .icons > article {
+    row-gap: 3vh;
+    align-items: center;
+  }
+
+  .icons aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: gainsboro;
+    width: 90%;
+    row-gap: 7vh;
+    height: 55vh;
+  }
+
+  .icons p {
+    width: 85%;
+    font-size: 17px;
+    text-align: center;
+  }
+
+  .icons i {
+    font-size: 40px;
+    color: gray;
   }
   
   /* CONTACT */

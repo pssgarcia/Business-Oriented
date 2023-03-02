@@ -19,8 +19,9 @@ img {
   
   /* CONTACT */
   .contact {
-    row-gap: 4vh;
+    row-gap: 7vh;
     align-items: center;
+    padding-bottom: 30vh;
   }
 
   .contact > article {
@@ -30,14 +31,43 @@ img {
   }
 
   .contact h3 {
+    padding-bottom: 2vh;
     color: gray;
-    padding-bottom: 5%;
+    font-size: 22px;
+    font-weight: 500;
   }
 
   .contact h6 {
     width: 40%;
-    color: deepskyblue;
-    border: 1px solid deepskyblue;
+    border: 1px solid dodgerblue;
+  }
+
+  .contact form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 3vh;
+    width: 70%;
+  }
+
+  select,
+  .contact input {
+    padding: 4%;
+    border: 1px solid lightgray;
+  }
+
+  textarea {
+    height: 20vh;
+    resize: none;
+    border: 1px solid lightgray;
+    padding-left: 5%;
+    padding-top: 5%;
+  }
+
+  [type="submit"] {
+    width: 40%;
+    background-color: deepskyblue;
+    color: whitesmoke;
+    align-self: center;
   }
 
   /* FOOTER */
@@ -46,7 +76,6 @@ img {
     flex-direction: column;
     color: dimgray;
     height: 20vh;
-    padding-top: 30vh;
     row-gap: 4vh;
   }
 
